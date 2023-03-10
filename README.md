@@ -112,17 +112,17 @@ After a few months, I decided to open source Monica so it could help other peopl
 
 ### Structure
 
-El software está desarrollado usando el framework full-stack Laravel. Este propone una estructura de carpetas con la que organizar el código. La carpeta [app](/app) es la más importante porque es el hogar de todo el código personal del proyecto. El resto de carpetas proporcionadas por esta arquitectura son:
-  - [bootstrap](/bootstrap): Permite el arranque de Laravel.
-  - [config](/config): Contiene la configuración tanto para el framework como para la aplicación.
-  - [database](/database): Se encuentran los archivos relacionados con el manejo de la base de datos.
-  - [docs](/docs): Contiene documentos importantes como ayuda para la instalación o las contribuciones.
-  - [public](/public): Dentro de este directorio se colocan todos los recursos estéticos de nuestra aplicación: archivos css, js, imágenes y fuentes.
-  - [resources](/resources): Aquí están distintos tipos de recursos que antes estaban en la carpeta app, guardándose en la carpeta assets, archivos de idioma (lang) y vistas.
-  - [routes](/routes): Donde se definen URIs y se hace referencia a middlewares y controladores.
-  - [scripts](/scripts): Contiene todos los scripts o ejecutables personalizados relacionados con la aplicación.
-  - [storage](/storage): Cuando Laravel necesita escribir algo en el disco, lo hace en el directorio storage.
-  - [tests](/tests): Se escriben los archivos de prueba que serán ejecutados posteriormente.
+The software is developed using the full-stack framework Laravel. It proposes a folder structure to organize the code. The [app](/app) folder is the most important one because it is the home of all the personal code of the project. The other folders provided by this architecture are:
+  - [bootstrap](/bootstrap): It allows Laravel startup.
+  - [config](/config): It contains the configuration for both the framework and the application.
+  - [database](/database): It contains the files related to the database management.
+  - [docs](/docs): It contains important documents such as installation help or how to contributibute the proyect.
+  - [public](/public): Inside this directory are placed all the aesthetic resources of our application: css, js, images and fonts files.
+  - [resources](/resources): Here are different types of resources that were previously in the app folder, being stored in the assets folder, language files (lang) and views.
+  - [routes](/routes): Where URIs are defined and middlewares and controllers are referenced.
+  - [scripts](/scripts): It contains all custom scripts or executables related to the application.
+  - [storage](/storage): When Laravel needs to write something to disk, it does it in the storage directory.
+  - [tests](/tests): It writes the test files that will be executed later.
 
 ## Get started
 
