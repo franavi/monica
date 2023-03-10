@@ -24,6 +24,7 @@ Monica is a great open source personal relationship management system.
   - [Who is it for?](#who-is-it-for)
   - [What Monica isn’t](#what-monica-isnt)
   - [Where does this tool come from?](#where-does-this-tool-come-from)
+  - [Structure](#structure)
 - [Get started](#get-started)
   - [Requirements](#requirements)
   - [Update your instance](#update-your-instance)
@@ -108,6 +109,20 @@ I originally built this tool to help me in my private life: I’ve been living o
 Moreover, as a foreigner in my new country, I met a lot of other foreigners – and most go back to their countries. I still want to remember the names or ages of their kids. You may call it cheating but considering my poor memory, I call it caring.
 
 After a few months, I decided to open source Monica so it could help other people as well.
+
+### Structure
+
+El software está desarrollado usando el framework full-stack Laravel. Este propone una estructura de carpetas con la que organizar el código. La carpeta [app](/app) es la más importante porque es el hogar de todo el código personal del proyecto. El resto de carpetas proporcionadas por esta arquitectura son:
+  - [bootstrap](/bootstrap): Permite el arranque de Laravel.
+  - [config](/config): Contiene la configuración tanto para el framework como para la aplicación.
+  - [database](/database): Se encuentran los archivos relacionados con el manejo de la base de datos.
+  - [docs](/docs): Contiene documentos importantes como ayuda para la instalación o las contribuciones.
+  - [public](/public): Dentro de este directorio se colocan todos los recursos estéticos de nuestra aplicación: archivos css, js, imágenes y fuentes.
+  - [resources](/resources): Aquí están distintos tipos de recursos que antes estaban en la carpeta app, guardándose en la carpeta assets, archivos de idioma (lang) y vistas.
+  - [routes](/routes): Donde se definen URIs y se hace referencia a middlewares y controladores.
+  - [scripts](/scripts): Contiene todos los scripts o ejecutables personalizados relacionados con la aplicación.
+  - [storage](/storage): Cuando Laravel necesita escribir algo en el disco, lo hace en el directorio storage.
+  - [tests](/tests): Se escriben los archivos de prueba que serán ejecutados posteriormente.
 
 ## Get started
 
